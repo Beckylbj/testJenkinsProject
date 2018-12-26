@@ -18,11 +18,11 @@ public class FirstJenkinsProjectApplication {
 		SpringApplication.run(FirstJenkinsProjectApplication.class, args);
 	}
 
-	@RequestMapping(value = {"/test"}, method = RequestMethod.GET)
-	@ResponseBody
-	public String test(HttpServletRequest request) {
-		return "success";
-	}
+//	@RequestMapping(value = {"/test"}, method = RequestMethod.GET)
+//	@ResponseBody
+//	public String test(HttpServletRequest request) {
+//		return "success";
+//	}
 
 	@RequestMapping(value = {"/"}, method = RequestMethod.GET)
 	@ResponseBody
